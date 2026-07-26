@@ -41,6 +41,34 @@ body {
   padding: 46px 38px;
 }
 
+/* ── LP: ヒーロー背景バナー(薄い装飾) ── */
+.hero-lp {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-lp::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    transparent 0%,
+    transparent 30%,
+    rgba(31, 91, 77, 0.14) 45%,
+    rgba(31, 91, 77, 0.14) 55%,
+    transparent 70%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-lp > * {
+  position: relative;
+  z-index: 1;
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--accent);
