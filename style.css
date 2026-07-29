@@ -187,6 +187,18 @@ h2 {
   font-size: 0.88rem;
 }
 
+/* ── プロフィール: LPへの一言添え ── */
+.lp-teaser {
+  margin-top: 20px;
+}
+
+.lp-teaser-copy {
+  margin: 0 0 8px;
+  color: var(--accent-dark);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
 footer {
   color: var(--muted);
   font-size: 0.82rem;
